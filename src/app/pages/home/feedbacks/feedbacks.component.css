@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.title {
+    color: #26C17F;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.feedbacks {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 900px;
+}
+
+.feedbacks ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.feedback {
+    margin-bottom: 30px;
+}
+
+.feedback span {
+    position: relative;
+    display: inline-block;
+    background-color: #F2F1EE;
+    padding: 10px;
+    color: #9E9D99;
+    border-radius: 3px;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-info .photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    content: url(pictures/avatar.jpg);
+}
+
+.user-info span {
+    background-color: #fff;
+    color: #BFBEBB;
+}
+
+.user-info span a {
+    text-decoration: none;
+    color: #26C17F;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    padding: 60px;
+}
+
+.contacts-info {
+    display: block;
+    padding-top: 20px;
+    align-items: center;
+    margin-left: 40px;
+    color: #73726E;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: auto auto;
+    vertical-align: center;
+    content: url(../../../../assets/phone.png);
+}
+
+.title {
+    color: #26C17F;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.icons-wrapper {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: #EBEBE7;
+    align-items: left;
+    flex-direction: column;
+}
+
+.contacts {
+    padding-top: 40px;
+}

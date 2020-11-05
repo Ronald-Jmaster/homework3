@@ -1,0 +1,36 @@
+.title {
+    color: #26C17F;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.skills {
+    position: relative;
+    margin-left: 40px;
+    max-width: 900px;
+}
+
+.diagram {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pipe {
+    align-items: center;
+    width: 100%;
+}
+
+.pipe h3 {
+    position: relative;
+    padding-left: 10px;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 7px 0;
+}
+
+.pipe>div {
+    background: #26C17F;
+    height: 30px;
+    border-radius: 2px;
+}

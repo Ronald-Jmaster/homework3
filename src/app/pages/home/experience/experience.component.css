@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 900px;
+    padding: 40px;
+}
+
+.title {
+    color: #26C17F;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 30px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    color: #8C8B87;
+}
+
+.description {
+    margin-left: 120px;
+}
+
+.experience-separator {
+    margin: 20px 0;
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    width: 100%;
+    color: #26C17F;
+}
+
+.company {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
