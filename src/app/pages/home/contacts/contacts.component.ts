@@ -7,7 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ContactsComponent implements OnInit {
 
-  public contactList = [{ title: 'Twitter', description: 'https://twitter.com/WordPress' }, { title: 'Facebook', description: 'https://facebook.com/facebook' }];
+  public contactList = [{ title: '500 345 242' },
+  { title: 'office@kamsolution.pl' },
+  { title: 'Twitter', description: 'https://twitter.com/WordPress' },
+  { title: 'Facebook', description: 'https://facebook.com/facebook' },
+  { title: 'Skype', description: 'kamsolution.pl' },];
 
   constructor() { }
 

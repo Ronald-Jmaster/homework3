@@ -7,9 +7,5 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ContactListComponent{
 
-  // getContactList(): any[]{
-  //   return [];
-  // }
-
   @Input() contactList: Array<any>;
 }

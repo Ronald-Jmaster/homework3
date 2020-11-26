@@ -1,18 +1,26 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { FrontPageComponent } from './front-page.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FrontPageComponent} from './front-page.component';
+import {RouterModule} from "@angular/router";
 import {SharedModule} from "../../shared/shared.module";
 
+
 @NgModule({
-  declarations: [
-    FrontPageComponent,
-  ],
+  declarations: [FrontPageComponent],
   imports: [
-    BrowserModule,
+    CommonModule,
+    RouterModule.forChild([
+      {
+        path: "front-page",
+        component: FrontPageComponent
+      }
+    ]),
     SharedModule
+
   ],
-  providers: [],
-  bootstrap: [FrontPageComponent]
+  exports: [
+    RouterModule
+  ]
 })
-export class FrontPageModule { }
+export class FrontPageModule {
+}

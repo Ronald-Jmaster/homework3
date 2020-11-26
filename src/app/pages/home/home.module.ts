@@ -1,31 +1,33 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
-import { ContactsComponent, ContactComponent, ContactListComponent } from './contacts';
-import { EducationComponent } from './education/education.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { FeedbacksComponent } from './feedbacks/feedbacks.component';
+import { HomeComponent } from './home.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { TextBlockComponent } from './text-block/text-block.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
+import { ContactsComponent, ContactComponent, ContactListComponent } from './contacts';
+import { FeedbacksComponent } from './feedbacks/feedbacks.component';
 import { SkillsComponent } from './skills/skills.component';
+import { HomeRoutingModule } from "./home-routing.module";
 import { SharedModule } from "../../shared/shared.module";
 
+
 @NgModule({
-  declarations: [
+  declarations: [HomeComponent,
+    SideNavComponent,
+    TextBlockComponent,
+    ExperienceComponent,
+    EducationComponent,
     ContactsComponent,
     ContactComponent,
     ContactListComponent,
-    EducationComponent,
     FeedbacksComponent,
-    SideNavComponent,
-    ExperienceComponent,
-    SkillsComponent
-  ],
+    SkillsComponent],
   imports: [
     SharedModule,
-    CommonModule
-  ],
-  providers: [],
-  bootstrap: [SideNavComponent]
+    CommonModule,
+    HomeRoutingModule
+  ]
 })
-export class HomeModule { }
+export class HomeModule {
+}

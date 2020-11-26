@@ -1,0 +1,13 @@
+.contacts-info {
+    display: block;
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 20px;
+    color: #73726E;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p,
+h4 {
+    margin: 0px;
+}
